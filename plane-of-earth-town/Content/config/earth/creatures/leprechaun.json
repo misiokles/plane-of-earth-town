@@ -1,0 +1,92 @@
+{
+	"eleprechaun":
+	{
+		"name" :
+		{
+			"plural" : "Mouses",
+			"singular" : "Mouse"
+		},
+		"advMapAmount" :
+		{
+			"max" : 50,
+			"min" : 20
+		},
+		"faction" : "earth",
+		"aiValue" : 50,
+		"attack" : 4,
+		"cost" :
+		{
+			"gold" : 50
+		},
+		"damage" :
+		{
+			"max" : 3,
+			"min" : 1
+		},
+		"defense" : 2,
+		"fightValue" : 57,
+		"graphics" :
+		{
+			"animation" : "earth/battle/creatures/leprechaun.def",
+			"map" : "earth/map/leprechaunmini.def",
+			"iconSmall" : "earth/iconsSmall/leprechauns.bmp",
+			"iconLarge" : "earth/iconsBig/leprechaunl.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile": "CPRZEAX.DEF",
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame" : 8
+			},
+			
+		},
+
+		"growth" : 15,
+		"hitPoints" : 4,
+		"horde" : 10,
+              	"level" : 1,
+		"shots" : 24,
+		"upgrades":
+		[
+			"leprechaunelder"
+		],
+		"sound" :
+		{
+			"attack": "MONKATTK.wav",
+			"defend": "MONKDFND.wav",
+			"killed": "MONKKILL.wav",
+			"move": "MONKMOVE.wav",
+			"shoot": "MONKSHOT.wav",
+			"wince": "MONKWNCE.wav"
+		},
+		"speed" : 5,
+		"abilities" :	
+		{
+			"canshoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"always lucky" :
+			{
+				"type" : "LUCK",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX"
+			}
+		}
+	}
+}

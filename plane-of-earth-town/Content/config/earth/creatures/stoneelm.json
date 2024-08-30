@@ -1,0 +1,84 @@
+{
+	"stoneelm":
+	{
+		"name" :
+		{
+			"plural" : "Stone Elementals",
+			"singular" : "Stone Elemental"
+		},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 16
+		},
+		"faction" : "earth",
+		"aiValue" : 156,
+		"attack" : 8,
+		"cost" :
+		{
+			"gold" : 150
+		},
+		"damage" :
+		{
+			"max" : 4,
+			"min" : 2
+		},
+		"defense" : 5,
+		"fightValue" : 163,
+		"graphics" :
+		{
+			"animation" : "earth/battle/creatures/stoneelm.def",
+			"map" : "earth/map/stoneelmmini.def",
+			"iconSmall" : "earth/iconsSmall/stoneelms.bmp",
+			"iconLarge" : "earth/iconsBig/stoneelml.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile": "earth/battle/creatures/projectile/stone.def",
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame" : 8
+			},
+        },
+		"doubleWide" : true,
+		"growth" : 8,
+		"shots" : 24,
+		"hitPoints" : 16,
+		"level" : 2,
+		"sound" :
+		{
+			"attack": "earth/elmatk.wav",
+			"defend": "earth/elmblk.wav",
+			"killed": "earth/elmdie.wav",
+			"move": "earth/elmwalk.wav",
+			"shoot": "earth/elmatk.wav",		
+			"wince": "earth/elmhit.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+			"canshoot" :
+			{
+				"type" : "SHOOTER"
+			},			
+		   "fearless" :
+			{
+				"type" : "FEARLESS"
+			}
+		}
+	}
+}

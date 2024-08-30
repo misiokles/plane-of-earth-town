@@ -1,0 +1,60 @@
+{
+	"zach" :
+	{
+		"class" : "runner",
+		"texts" :
+		{
+			"name" : "Zach",
+			"biography" : "His past is unknown to all.",
+			"specialty" :
+			{
+				"description" : "Bonus of War Bears",
+				"tooltip" : "",
+				"name" : "War Bears"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "earth/heroes/zach/spec-small.png",
+			"specialtyLarge" : "earth/heroes/zach/spec-large.png",
+			"large" : "earth/heroes/zach/portrait-large.png",
+			"small" : "earth/heroes/zach/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "eleprechaun",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "stoneelm",
+				"max" : 12,
+				"min" : 7
+			},
+			{
+				"creature" : "hawk",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "diplomacy"
+			},
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "warbear"
+		}
+	}
+}

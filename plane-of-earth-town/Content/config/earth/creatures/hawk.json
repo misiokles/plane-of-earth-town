@@ -1,0 +1,67 @@
+{
+	"hawk":
+	{
+		"name" :
+		{
+			"plural" : "Chimeras",
+			"singular" : "Chimera"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 5
+		},
+		"faction" : "earth",
+		"aiValue" : 271,
+		"attack" : 9,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 200
+		},
+		"damage" :
+		{
+			 "max" : 5,
+			 "min" : 4
+		},
+		"defense" : 5,
+		"fightValue" : 220,
+		"graphics" :
+		{
+			"animation" : "earth/battle/creatures/hawk.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "earth/map/hawkmini.def",
+			"iconSmall" : "earth/iconsSmall/hawks.bmp",
+			"iconLarge" : "earth/iconsBig/hawkl.bmp",
+			"timeBetweenFidgets" : 1
+               },
+		"growth" : 7,
+		"hitPoints" : 20,
+		"level" : 3,
+		"upgrades":
+		[
+			"firehawk"
+		],
+		"sound" :
+		{
+			"attack": "ROCCATTK.wav",
+			"defend": "ROCCDFND.wav",
+			"killed": "ROCCKILL.wav",
+			"move": "ROCCMOVE.wav",
+			"wince": "ROCCWNCE.wav"
+		},
+		"speed" : 9,
+		"abilities":
+		{
+			"extraAttack" :
+			{
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1
+			},
+			"flies" :
+			{
+				"type" : "FLYING"
+			}
+		}
+	}
+}

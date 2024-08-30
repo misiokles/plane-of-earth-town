@@ -1,0 +1,60 @@
+{
+	"tim" :
+	{
+		"class" : "runner",
+		"texts" :
+		{
+			"name" : "Tim",
+			"biography" : "His past is a mystery to all.",
+			"specialty" :
+			{
+				"description" : "Bonus of Cave Tigers",
+				"tooltip" : "",
+				"name" : "Cave Tigers"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "earth/heroes/tim/spec-small.png",
+			"specialtyLarge" : "earth/heroes/tim/spec-large.png",
+			"large" : "earth/heroes/tim/portrait-large.png",
+			"small" : "earth/heroes/tim/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "eleprechaun",
+				"max" : 20,
+				"min" : 15
+			},
+			{
+				"creature" : "stoneelm",
+				"max" : 10,
+				"min" : 7
+			},
+			{
+				"creature" : "stoneelm",
+				"max" : 10,
+				"min" : 7
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "artillery"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "stoneelm"
+		}
+	}
+}

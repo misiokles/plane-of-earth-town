@@ -1,0 +1,66 @@
+{
+	"coppers" :
+	{
+		"class" : "runner",
+		"texts" :
+		{
+			"name" : "Coppers",
+			"biography" : "His past is a mystery to all.",
+			"specialty" :
+			{
+				"description" : "+1 Gem per day",
+				"tooltip" : "",
+				"name" : "+1 Gem"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "earth/heroes/coppers/spec-small.png",
+			"specialtyLarge" : "earth/heroes/coppers/spec-large.png",
+			"large" : "earth/heroes/coppers/portrait-large.png",
+			"small" : "earth/heroes/coppers/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "eleprechaun",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "stoneelm",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "hawk",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			}
+		],
+		
+		"specialty": {
+			"bonuses": {
+				"gems" : {
+					"type": "GENERATE_RESOURCE",
+					"subtype": "resource.gems",
+					"val": 1
+				}	
+			}
+		}
+	}
+}

@@ -1,0 +1,73 @@
+{
+	"wren" :
+	{
+		"class" : "shaper",
+		"texts" :
+		{
+			"name" : "Wren",
+			"biography" : "Her past is a mystery to all.",
+			"specialty" :
+			{
+				"description" : "+350 Gold per day",
+				"tooltip" : "",
+				"name" : "+350 Gold"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "earth/heroes/wren/spec-small.png",
+			"specialtyLarge" : "earth/heroes/wren/spec-large.png",
+			"large" : "earth/heroes/wren/portrait-large.png",
+			"small" : "earth/heroes/wren/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"viewEarth"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "eleprechaun",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "stoneelm",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "hawk",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "estates"
+			}
+		],
+		
+		"specialty": {
+			"bonuses": {
+				"gold" :
+					{
+						"type": "GENERATE_RESOURCE",
+						"subtype": "resource.gold",
+						"val": 350
+					}
+			}
+		}
+	}
+}
+

@@ -1,0 +1,101 @@
+{
+	"blackroottreant":
+	{
+		"name" :
+		{
+			"plural" : "Treants",
+			"singular" : "Treant"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 4
+		},
+		"faction" : "earth",
+		"aiValue" : 3850,
+		"attack" : 17,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 2400,
+			"gems" : 1
+		},
+		"damage" :
+		{
+			 "max" : 40,
+			 "min" : 30
+		},
+		"defense" : 21,
+		"fightValue" : 3100,
+		"graphics" :
+		{
+			"animation" : "earth/battle/creatures/brootent.DEF",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "earth/map/brootentmini.def",
+			"iconSmall" : "earth/iconsSmall/brootents.bmp",
+			"iconLarge" : "earth/iconsBig/brootentl.bmp",
+			"timeBetweenFidgets" : 1
+               },
+		"growth" : 1,
+		"hitPoints" : 200,
+		"level" : 7,
+		"upgrades":
+		[
+			"bramblewoodtreant"
+		],
+		"sound" :
+		{
+			
+			"attack": "TREEATTK.wav",
+			"defend": "TREEDFND.wav",
+			"killed": "TREEKILL.wav",
+			"move": "TREEMOVE.wav",
+			"wince": "TREEWNCE.wav"
+		},
+		"speed" : 10,
+		"abilities" :
+		{
+			"casts bind after attack" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.bind",	//72 
+				"val" : 100,
+			},
+			"+10defense when defending" :
+			{
+				"type" : "DEFENSIVE_STANCE",
+				"val" : 10
+			},
+			"easy to burn-firewall" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100,
+				"subtype" : "spell.fireWall"	//13
+			},
+			"easy to burn-fireball" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100,
+				"subtype" : "spell.fireball"	//21
+			},
+			"easy to burn-inferno" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100,
+				"subtype" : "spell.inferno"	//22
+			},
+			"easy to burn-armageddon" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100,
+				"subtype" : "spell.armageddon"	//26
+			},
+			"easy to burn-fireshield" :
+			{ 
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100,
+				"subtype" : "spell.fireShield"	//29
+			}
+		}	
+	}
+}

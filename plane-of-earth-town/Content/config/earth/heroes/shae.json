@@ -1,0 +1,63 @@
+{
+	"shae" :
+	{
+		"class" : "shaper",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Shae",
+			"biography" : "Shae was a female druid with many achievements,but war was never one of them. She often felt slighted, so she decided to do something about it and make a big splash. However, she was framed by other members of her tribe and ended up being sent to prison. The young druid escaped via her magic, and got as far away from Avlee as possible.",
+			"specialty" :
+			{
+				"description" : "Bonus of Centaur Barbarians",
+				"tooltip" : "",
+				"name" : "Centaur Barbarians"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "earth/heroes/shae/spec-small.png",
+			"specialtyLarge" : "earth/heroes/shae/spec-large.png",
+			"large" : "earth/heroes/shae/portrait-large.png",
+			"small" : "earth/heroes/shae/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"dispel"
+		],
+
+
+		"army" :
+		[
+			{
+				"creature" : "eleprechaun",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "stoneelm",
+				"max" : 8,
+				"min" : 5
+			},
+			{
+				"creature" : "centaurbarbarian",
+				"max" : 8,
+				"min" : 6
+			}
+		],
+
+		"skills" : 
+		[
+			{
+				"level" : "advanced",
+				"skill" : "wisdom"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "centaurbarbarian"
+		}
+	}
+}

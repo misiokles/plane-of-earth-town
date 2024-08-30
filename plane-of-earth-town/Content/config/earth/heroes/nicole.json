@@ -1,0 +1,65 @@
+{
+	"nicole" : 
+	{
+		"class" : "runner",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Nicole",
+			"biography" : "Nicole used to be the deputy of an elven guard. While out on patrol of the forest with her long time companions, she discovered an enemy plot and promptly reported it to her superior. However, three days had passed and the enemy forces were nowhere to be seen. Nicole was punished for spreading disinformation. However on the fourth day, the elves defeated by the previously scouted enemy force. Nicole, tired of being surrounded by incompetence, left Avlee and started a new life.",
+			"specialty" :
+			{
+				"description" : "Bonus of Scouting",
+				"tooltip" : "",
+				"name" : "Scouting"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "earth/heroes/nicole/spec-small.png",
+			"specialtyLarge" : "earth/heroes/nicole/spec-large.png",
+			"large" : "earth/heroes/nicole/portrait-large.png",
+			"small" : "earth/heroes/nicole/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "eleprechaun",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "stoneelm",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "hawk",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "scouting"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+                "sight" : {
+					"type" : "SIGHT_RADIUS",
+					"val" : 0,
+					"valueType" : "BASE_NUMBER",
+                    "updater" : {
+                        "parameters" : [6],
+                        "type" : "GROWS_WITH_LEVEL"
+                    }
+				}	
+			}
+		}
+	}
+}

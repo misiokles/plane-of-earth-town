@@ -1,0 +1,89 @@
+{
+	"rockelm":
+	{
+		"name" :
+		{
+			"plural" : "Rock Elementals",
+			"singular" : "Rock Elemental"
+		},
+		"advMapAmount" :
+		{
+			"max" : 30,
+			"min" : 16
+		},
+		"faction" : "earth",
+		"aiValue" : 146,
+		"attack" : 8,
+		"cost" :
+		{
+			"gold" : 110
+		},
+		"damage" :
+		{
+			"max" : 4,
+			"min" : 2
+		},
+		"defense" : 3,
+		"fightValue" : 154,
+		"graphics" :
+		{
+			"animation" : "earth/battle/creatures/rockelm.def",
+			"map" : "earth/map/rockelmmini.def",
+			"iconSmall" : "earth/iconsSmall/rockelms.bmp",
+			"iconLarge" : "earth/iconsBig/rockelml.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile": "earth/battle/creatures/projectile/rock.def",
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame" : 8
+			},
+        },
+		"doubleWide" : true,
+		"growth" : 8,
+		"shots" : 24,
+		"hitPoints" : 15,
+		"level" : 2,
+		"upgrades":
+		[
+			"stoneelm"
+		],
+		"sound" :
+		{
+			"attack": "earth/elmatk.wav",
+			"defend": "earth/elmblk.wav",
+			"killed": "earth/elmdie.wav",
+			"move": "earth/elmwalk.wav",
+			"shoot": "earth/elmatk.wav",			
+			"wince": "earth/elmhit.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+			"canshoot" :
+			{
+				"type" : "SHOOTER"
+			},			
+		   "fearless" :
+			{
+				"type" : "FEARLESS"
+			}
+		}
+	}
+}
+

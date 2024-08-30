@@ -1,0 +1,61 @@
+{
+	"tavish" :
+	{
+		"class" : "runner",
+		"texts" :
+		{
+			"name" : "Tavish",
+			"biography" : "His past is a mystery to all.",
+			"specialty" :
+			{
+				"description" : "Bonus of Hawks",
+				"tooltip" : "",
+				"name" : "Hawks"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "earth/heroes/tavish/spec-small.png",
+			"specialtyLarge" : "earth/heroes/tavish/spec-large.png",
+			"large" : "earth/heroes/tavish/portrait-large.png",
+			"small" : "earth/heroes/tavish/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "eleprechaun",
+				"max" : 20,
+				"min" : 15
+			},
+			{
+				"creature" : "hawk",
+				"max" : 7,
+				"min" : 4
+			},
+			{
+				"creature" : "hawk",
+				"max" : 7,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "scouting"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "hawk"
+		}
+	}
+}
+

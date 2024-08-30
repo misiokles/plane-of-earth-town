@@ -1,0 +1,55 @@
+{
+	"liam" :
+	{
+		"class" : "runner",
+		"texts" :
+		{
+			"name" : "Liam",
+			"biography" : "His past is a mystery to all.",
+			"specialty" :
+			{
+				"description" : "Bonus of Vespoid Drones",
+				"tooltip" : "",
+				"name" : "Vespoid Drones"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "earth/heroes/liam/spec-small.png",
+			"specialtyLarge" : "earth/heroes/liam/spec-large.png",
+			"large" : "earth/heroes/liam/portrait-large.png",
+			"small" : "earth/heroes/liam/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "eleprechaun",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "ddwa",
+				"max" : 1,
+				"min" : 1
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "ddwa"
+		}
+	}
+}
+

@@ -1,0 +1,73 @@
+{
+    "centaursoldier":
+	{
+		"name" :
+		{
+			"plural" : "Ancient Cockatrices",
+			"singular" : "Ancient Cockatrice"
+		},
+		"advMapAmount" :
+		{
+			"max" : 12,
+			"min" : 8
+		},
+		"faction" : "earth",
+		"aiValue" : 1300,
+		"attack" : 12,
+		"cost" :
+		{
+			"gold" : 380
+		},
+		"damage" :
+		{
+			"max" : 10,
+			"min" : 8
+		},
+		"defense" : 12,
+		"fightValue" : 1100,
+		"graphics" :
+		{
+			"animation" : "earth/battle/creatures/centaursoldier.DEF",
+			"map" : "earth/map/centaursoldiermini.def",
+			"iconSmall" : "earth/iconsSmall/centaursoldiers.bmp",
+			"iconLarge" : "earth/iconsBig/centaursoldierl.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+	
+		},
+	    "doubleWide" : true,
+        "growth" : 4,
+		"hitPoints" : 40,
+		"level" : 4,
+		"sound" :
+		{
+			"attack": "GBASATTK.wav",
+			"defend": "GBASDFND.wav",
+			"killed": "GBASKILL.wav",
+			"move": "GBASMOVE.wav",
+			"wince": "GBASWNCE.wav"
+ 		},
+		"speed" : 8,
+		"abilities" : {
+
+			"deathStare" : 
+			{
+				"type" : "DEATH_STARE",
+				"subtype" : "deathStareGorgon",
+				"val" : 10
+			},
+			"petrify" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.stoneGaze",
+				"val" : 30,
+				"addInfo" : [0,2]
+			}
+		}
+	}
+}

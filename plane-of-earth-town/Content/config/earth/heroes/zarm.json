@@ -1,0 +1,73 @@
+{
+	"zarm" :
+	{
+		"class" : "shaper",
+		"texts" :
+		{
+			"name" : "Zarm",
+			"biography" : "His past is a mystery to all.",
+
+			"specialty" :
+			{
+				"description" : "Bonus of Weakness",
+				"tooltip" : "",
+				"name" : "Weakness"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "earth/heroes/zarm/spec-small.png",
+			"specialtyLarge" : "earth/heroes/zarm/spec-large.png",
+			"large" : "earth/heroes/zarm/portrait-large.png",
+			"small" : "earth/heroes/zarm/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"weakness"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "eleprechaun",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "stoneelm",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "hawk",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		
+		"specialty": {
+			"bonuses": {
+				"weakness" :
+					{
+						"type": "SPECIAL_PECULIAR_ENCHANT",
+						"subtype": "spell.weakness", 
+						"addInfo": 0
+					}
+			}
+		}
+	}
+}
+

@@ -1,0 +1,92 @@
+{
+	"leprechaunelder":
+	{
+		"name" :
+		{
+			"plural" : "Magic Mouses",
+			"singular" : "Magic Mouse"
+		},
+		"advMapAmount" :
+		{
+			"max" : 30,
+			"min" : 20
+		},
+		"faction" : "earth",
+		"aiValue" : 57,
+		"attack" : 5,
+		"cost" :
+		{
+			"gold" : 65
+		},
+		"damage" :
+		{
+			"max" : 3,
+			"min" : 1
+		},
+		"defense" : 2,
+		"fightValue" : 62,
+		"graphics" :
+		{
+			"animation" : "earth/battle/creatures/leprechaunelder.def",
+			"map" : "earth/map/leprechauneldermini.def",
+			"iconSmall" : "earth/iconsSmall/leprechaunelders.bmp",
+			"iconLarge" : "earth/iconsBig/leprechaunelderl.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"attackClimaxFrame" : 8,
+				"projectile": "CPRZEAX.DEF",
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			},
+			
+		},
+
+		"growth" : 15,
+		"hitPoints" : 5,
+		"horde" : 10,
+              	"level" : 1,
+		"shots" : 24,
+		"sound" :
+		{
+			"attack": "MONKATTK.wav",
+			"defend": "MONKDFND.wav",
+			"killed": "MONKKILL.wav",
+			"move": "MONKMOVE.wav",
+			"shoot": "MONKSHOT.wav",
+			"wince": "MONKWNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" : 
+		{
+			"canshoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"always lucky" :
+			{
+				"type" : "LUCK",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX"
+			},
+			"no melee penalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			}
+		}
+	}
+}

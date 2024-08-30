@@ -1,0 +1,88 @@
+{
+	"ddwa":
+	{
+		"name" :
+		{
+			"plural" : "Dark Dwarves",
+			"singular" : "Dark Dwarf"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 8
+		},
+		"faction" : "earth",
+		"aiValue" : 859,
+		"attack" : 14,
+        "cost" :
+		{
+			"gold" : 600
+		},
+		"damage" :
+		{
+			 "max" : 14,
+			 "min" : 12
+		},
+		"defense" : 11,
+		"fightValue" : 753,
+		"graphics" :
+		{
+			"animation" : "earth/battle/creatures/ddwa.def",
+			"map" : "earth/map/ddwamini.def",
+			"iconSmall" : "earth/iconsSmall/ddwas.bmp",
+			"iconLarge" : "earth/iconsBig/ddwal.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile": "PELFX.DEF",
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame" : 8
+			},
+        },
+		"growth" : 3,
+		"hitPoints" : 50,
+		"level" : 5,
+		"shots" : 20,
+		"upgrades":
+		[
+			"ddwavet"
+		],			
+		"sound" :
+		{
+			"attack": "WELFSHOT.wav",
+			"defend": "earth/ddblk.wav",
+			"killed": "earth/dddie.wav",
+			"move": "DWRFMOVE.wav",
+			"shoot": "WELFSHOT.wav",			
+			"wince": "earth/ddhit.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+			"canshoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"adjacent resistance" :
+			{
+				"type" : "SPELL_RESISTANCE_AURA",
+				"val" : 20
+			}
+		}
+	}
+}

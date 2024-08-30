@@ -1,0 +1,60 @@
+{
+	"muggins" :
+	{
+		"class" : "runner",
+		"texts" :
+		{
+			"name" : "Muggins",
+			"biography" : "Muggins decided to help the Leprechauns escape from Avlee because he could not tolerate the unfair treatment of his people any longer. He found Leprechauns were treated as slaves, so he helped them to find a new life. Nowadays, he can be found in his mushroom patch within his new forest, settled in with his companions. It is said that he always has good luck for no apparent reason.",
+			"specialty" :
+			{
+				"description" : "Bonus of Leprechauns.",
+				"tooltip" : "",
+				"name" : "Leprechauns"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "earth/heroes/muggins/spec-small.png",
+			"specialtyLarge" : "earth/heroes/muggins/spec-large.png",
+			"large" : "earth/heroes/muggins/portrait-large.png",
+			"small" : "earth/heroes/muggins/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "eleprechaun",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "eleprechaun",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "leprechaunelder",
+				"max" : 17,
+				"min" : 10
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "luck"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "eleprechaun"
+		}
+	}
+}

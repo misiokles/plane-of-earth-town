@@ -1,0 +1,72 @@
+{
+	"centaurbarbarian":
+	{
+		"name" :
+		{
+			"plural" : "Cockatrices",
+			"singular" : "Cockatrice"
+		},
+		"advMapAmount" :
+		{
+			"max" : 16,
+			"min" : 8
+	
+		},
+		"faction" : "earth",
+		"aiValue" : 1000,
+		"attack" : 11,
+		"cost" :
+		{
+			"gold" : 300
+		},
+		"damage" :
+		{
+			"max" : 10,
+			"min" : 6
+		},
+		"defense" : 11,
+		"fightValue" : 800,
+		"graphics" :
+		{
+			"animation" : "earth/battle/creatures/centaurbarbarian.DEF",
+			"map" : "earth/map/centaurbarbarianmini.def",
+			"iconSmall" : "earth/iconsSmall/centaurbarbarians.bmp",
+			"iconLarge" : "earth/iconsBig/centaurbarbarianl.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.20
+			}
+           
+		},
+	    "doubleWide" : true,
+            "growth" : 4,
+	    "hitPoints" : 35,
+	    "level" : 4,
+            "upgrades":
+		[
+			"centaursoldier"
+		],
+		"sound" :
+		{
+			"attack": "BASLATTK.wav",
+			"defend": "BASLDFND.wav",
+			"killed": "BASLKILL.wav",
+			"move": "BASLMOVE.wav",
+			"wince": "BASLWNCE.wav"
+ 		},
+		"speed" : 7,
+		"abilities":
+		{
+			"petrify" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.stoneGaze",
+				"val" : 15,
+				"addInfo" : [0,2]
+            }
+		}
+	}
+}

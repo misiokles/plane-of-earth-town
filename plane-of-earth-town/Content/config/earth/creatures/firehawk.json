@@ -1,0 +1,58 @@
+{
+	"firehawk":
+	{
+		"name" :
+		{
+			"plural" : "Forest Chimeras",
+			"singular" : "Forest Chimera"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 20,
+			 "min" : 12
+		},
+		"faction" : "earth",
+		"aiValue" : 287,
+		"attack" : 10,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 240
+		},
+		"damage" :
+		{
+			 "max" : 5,
+			 "min" : 5
+		},
+		"defense" : 7,
+		"fightValue" : 247,
+		"graphics" :
+		{
+			"animation" : "earth/battle/creatures/firehawk.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "earth/map/firehawkmini.def",
+			"iconSmall" : "earth/iconsSmall/firehawks.bmp",
+			"iconLarge" : "earth/iconsBig/firehawkl.bmp",
+			"timeBetweenFidgets" : 1
+               },
+		"growth" : 7,
+		"hitPoints" : 25,
+		"level" : 3,
+		"sound" :
+		{
+			"attack": "ROCCATTK.wav",
+			"defend": "ROCCDFND.wav",
+			"killed": "ROCCKILL.wav",
+			"move": "ROCCMOVE.wav",
+			"wince": "ROCCWNCE.wav"
+		},
+		"speed" : 9,
+		"abilities" :
+		{
+			"flies" :
+			{
+				"type" : "FLYING"
+			}
+		}
+	}
+}

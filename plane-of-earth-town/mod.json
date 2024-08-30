@@ -1,0 +1,67 @@
+{
+	"name" : "Plane of Earth",
+	"description" : "An experimental, unfinished town based on an old beta Dungeon townscreen",
+	"author" : "AcidChalk, zeryss",
+	"contact" : "vcmi discord",
+	"version" : "0.5",
+	"modType" : "Town",
+	"compatibility" :
+	{
+		"min" : "1.5.0"
+	},
+	"changelog" :
+	{
+
+		"0.4" : [ "Update to vcmi-1.5 format" ],
+		"0.5"     : [ "Initial release" ]
+	}, 
+    "factions" : [ "config/earth/town.json" ],
+	
+	"creatures" :
+	[
+		"config/earth/creatures/leprechaun.json",
+		"config/earth/creatures/leprechaunelder.json",
+		"config/earth/creatures/rockelm.json",
+		"config/earth/creatures/stoneelm.json",
+		"config/earth/creatures/hawk.json",
+		"config/earth/creatures/firehawk.json",
+		"config/earth/creatures/centaurbarbarian.json",
+		"config/earth/creatures/centaursoldier.json",
+		"config/earth/creatures/ddwa.json",
+		"config/earth/creatures/ddwavet.json",
+		"config/earth/creatures/warbear.json",
+		"config/earth/creatures/direwarbear.json",
+		"config/earth/creatures/blackroottreant.json",
+		"config/earth/creatures/Pathfinder.json",
+		"config/earth/creatures/bramblewoodtreant.json"
+	],
+	
+        
+    
+	
+	"heroClasses" :
+	[
+		"config/earth/classes/runner.json",
+		"config/earth/classes/shaper.json"
+	],
+
+	"heroes" :
+	[
+		"config/earth/heroes/muggins.json",
+		"config/earth/heroes/liam.json",
+		"config/earth/heroes/nahana.json",
+		"config/earth/heroes/tim.json",
+		"config/earth/heroes/coppers.json",
+		"config/earth/heroes/zach.json",
+		"config/earth/heroes/nicole.json",
+		"config/earth/heroes/tavish.json",
+		"config/earth/heroes/shae.json",
+		"config/earth/heroes/meila.json",
+		"config/earth/heroes/priscilla.json",
+		"config/earth/heroes/zarm.json",
+		"config/earth/heroes/wendil.json",
+		"config/earth/heroes/linda.json",
+		"config/earth/heroes/wren.json",
+		"config/earth/heroes/tana.json"
+	]
+}

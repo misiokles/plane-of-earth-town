@@ -1,0 +1,58 @@
+{
+	"shaper" : {
+		"affinity" : "magic",
+		"animation" : { "battle" : { "female" : "earth/battle/heroes/HeroFemale", "male" : "earth/battle/heroes/HeroMale" } },
+		"commander" : "pathfinder",
+		"defaultTavern" : 5,
+		"faction" : "earth",
+		"highLevelChance" : { "attack" : 15, "defence" : 10, "knowledge" : 35, "spellpower" : 45 },
+		"lowLevelChance" : { "attack" : 10, "defence" : 10, "knowledge" : 35, "spellpower" : 50 },
+		"mapObject" : { "templates" : { "default" : { "animation" : "earth/map/shaper" } } },
+		"name" : "Shaper",
+		"primarySkills" : { "attack" : 0, "defence" : 0, "knowledge" : 3, "spellpower" : 2 },
+		"secondarySkills" :
+		{
+			"pathfinding"  : 6,
+			"archery"      : 6,
+			"logistics"    : 5,
+			"scouting"     : 2,
+			"diplomacy"    : 2,
+			"navigation"   : 2,
+			"leadership"   : 2,
+			"wisdom"       : 8,
+			"mysticism"    : 3,
+			"luck"         : 4,
+			"ballistics"   : 2,
+			"eagleEye"     : 6,
+			"necromancy"   : 0,
+			"estates"      : 2,
+			"fireMagic"    : 4,
+			"airMagic"     : 6,
+			"waterMagic"   : 6,
+			"earthMagic"   : 5,
+			"scholar"      : 5,
+			"tactics"      : 4,
+			"artillery"    : 1,
+			"learning"     : 4,
+			"offence"      : 4,
+			"armorer"      : 4,
+			"intelligence" : 7,
+			"sorcery"      : 6,
+			"resistance"   : 5,
+			"firstAid"     : 2
+		},
+		"tavern" :
+		{
+			"castle"     : 4,
+			"rampart"    : 0,
+			"tower"      : 6,
+			"inferno"    : 6,
+			"necropolis" : 5,
+			"dungeon"    : 5,
+			"stronghold" : 6,
+			"fortress"   : 6,
+			"conflux"    : 5,
+			"earth"   : 6
+		}
+	}
+}

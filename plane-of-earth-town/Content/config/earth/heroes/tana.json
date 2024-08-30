@@ -1,0 +1,71 @@
+{
+	"tana" :
+	{
+		"class" : "shaper",
+		"texts" :
+		{
+			"name" : "Tana",
+			"biography" : "Her past is a mystery to all.",
+			"specialty" :
+			{
+				"description" : "Haste bonus",
+				"tooltip" : "",
+				"name" : "Haste"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "earth/heroes/tana/spec-small.png",
+			"specialtyLarge" : "earth/heroes/tana/spec-large.png",
+			"large" : "earth/heroes/tana/portrait-large.png",
+			"small" : "earth/heroes/tana/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"haste"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "eleprechaun",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "stoneelm",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "hawk",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "airMagic"
+			}
+		],
+		
+		"specialty": {
+			"bonuses": {
+				"haste" :
+					{
+						"type": "SPECIAL_PECULIAR_ENCHANT",
+						"subtype": "spell.haste",
+						"addInfo": 0 //normal, like most of hereos
+					}
+			}
+		}
+	}
+}

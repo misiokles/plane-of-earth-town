@@ -1,0 +1,72 @@
+{
+	"meila" :
+	{
+		"class" : "shaper",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Meila",
+			"biography" : "Her past is a mystery to all.",
+			"specialty" :
+			{
+				"description" : "Bonus of Ice Bolt",
+				"tooltip" : "",
+				"name" : "Ice Bolt"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "earth/heroes/meila/spec-small.png",
+			"specialtyLarge" : "earth/heroes/meila/spec-large.png",
+			"large" : "earth/heroes/meila/portrait-large.png",
+			"small" : "earth/heroes/meila/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"iceBolt"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "eleprechaun",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "stoneelm",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "hawk",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		
+		"specialty": {
+			"bonuses": {
+				"iceBolt" : {
+						"type": "SPECIAL_SPELL_LEV",
+						"subtype": "spell.iceBolt",
+						"val": 5 // make her stronger a bit }:>
+				}
+			}
+		}
+	}
+}

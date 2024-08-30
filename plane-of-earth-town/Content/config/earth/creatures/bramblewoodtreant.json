@@ -1,0 +1,111 @@
+{
+	"bramblewoodtreant":
+	{
+		"name" :
+		{
+			"plural" : "Ancient Treants",
+			"singular" : "Ancient Treant"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 4
+		},
+		"faction" : "earth",
+		"aiValue" : 3870,
+		"attack" : 19,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 5000,
+			"gems" : 2
+		},
+		"damage" :
+		{
+			 "max" : 50,
+			 "min" : 30
+		},
+		"defense" : 28,
+		"fightValue" : 5571,
+		"graphics" :
+		{
+			"animation" : "earth/battle/creatures/bwoodent.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "earth/map/bwoodentmini.def",
+			"iconSmall" : "earth/iconsSmall/bwoods.bmp",
+			"iconLarge" : "earth/iconsBig/bwoodl.bmp",
+			"timeBetweenFidgets" : 1
+               },
+		"growth" : 1,
+		"hitPoints" : 300,
+		"level" : 7,
+		"sound" :
+		{
+			"attack": "TREEATTK.wav",
+			"defend": "TREEDFND.wav",
+			"killed": "TREEKILL.wav",
+			"move": "TREEMOVE.wav",
+			"wince": "TREEWNCE.wav" 
+		},
+		"speed" : 12,
+		"abilities" :
+		{
+			"casts bind after attack" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.bind",	//72 
+				"val" : 100,
+			},
+			"mindImmunity":
+			{	
+				"type" : "MIND_IMMUNITY"
+			},
+			"rebirthAlways":
+			{
+				"type" : "REBIRTH",
+				"subtype" : "rebirthRegular",
+				"val" : 50			
+			},
+			"casts":
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"+10defense when defending" :
+			{
+				"type" : "DEFENSIVE_STANCE",
+				"val" : 10
+			},
+			"easy to burn-firewall" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100,
+				"subtype" : "spell.fireWall"	//13
+			},
+			"easy to burn-fireball" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100,
+				"subtype" : "spell.fireball"	//21
+			},
+			"easy to burn-inferno" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100,
+				"subtype" : "spell.inferno"	//22
+			},
+			"easy to burn-armageddon" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100,
+				"subtype" : "spell.armageddon"	//26
+			},
+			"easy to burn-fireshield" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100,
+				"subtype" : "spell.fireShield"	//29
+			}
+		}
+	}
+}
