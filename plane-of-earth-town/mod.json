@@ -12,8 +12,8 @@
 	"changelog" :
 	{
 
-		"0.4" : [ "Update to vcmi-1.5 format" ],
-		"0.5"     : [ "Initial release" ]
+		"0.5" : [ "Update to vcmi-1.5 format" ],
+		"0.4"     : [ "Initial release" ]
 	}, 
     "factions" : [ "config/earth/town.json" ],
 	
