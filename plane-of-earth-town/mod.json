@@ -35,10 +35,6 @@
 		"config/earth/creatures/Pathfinder.json",
 		"config/earth/creatures/bramblewoodtreant.json"
 	],
-	
-        
-    
-	
 	"heroClasses" :
 	[
 		"config/earth/classes/runner.json",
