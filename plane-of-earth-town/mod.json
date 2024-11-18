@@ -16,6 +16,13 @@
 		"0.4"     : [ "Initial release" ]
 	}, 
     "factions" : [ "config/earth/town.json" ],
+	"chinese": {
+		"name" : "土之位面",
+		"description" : "一个实验性的未完成城镇，基于早期测试版地下城。",
+		"translations" : [
+			"translation/earth/chinese.json"
+		]
+	},		
 	
 	"creatures" :
 	[
