@@ -3,15 +3,16 @@
 	"description" : "An experimental, unfinished town based on an old beta Dungeon townscreen",
 	"author" : "AcidChalk, zeryss",
 	"contact" : "vcmi discord",
-	"version" : "0.5",
+	"version" : "0.6",
 	"modType" : "Town",
 	"compatibility" :
 	{
-		"min" : "1.5.0"
+		"min" : "1.6.0"
 	},
 	"changelog" :
 	{
 
+		"0.6" : [ "Update to vcmi-1.6 format" ],
 		"0.5" : [ "Update to vcmi-1.5 format" ],
 		"0.4"     : [ "Initial release" ]
 	}, 

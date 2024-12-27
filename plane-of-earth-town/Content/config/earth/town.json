@@ -248,6 +248,7 @@
 				{
 					"name" : "Marketplace",
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"marketModes" : ["resource-resource", "resource-player"],
 					"cost" :
 					{
 						"wood" : 5,
@@ -264,6 +265,7 @@
 						"ore" : 5,
 						"gold" : 5000
 					},
+					"produce": { "gems": 1 },
 					"requires" : [ "marketplace" ],
 					"id" : 15
 				},
@@ -271,6 +273,7 @@
 				{
 					"description" : "The Blacksmith provides your armies with Ballista.",
 					"name" : "Blacksmith",
+					"warMachine" : "ballista",
 					"cost" :
 					{
 						"wood" : 5,
@@ -322,6 +325,7 @@
 				{
 					"description" : "The Ore Vein produces an additional +1 ore daily.",
 					"name" : "Ore Vein",
+					"produce": { "ore": 1 },
 					"cost" : {
 						"gems" : 5,
 						"gold" : 1000
@@ -333,6 +337,7 @@
 				{
 					"description" : "The Summon Stone increases weekly creature generation by 50 percent, adds 5000 gold per day (undetermined).",
 					"name" : "Summon Stone",
+					"produce": { "gold": 5000 },
 					"id" : 26,
 					"mode" : "grail"
 				},
@@ -628,7 +633,7 @@
 			},
 			"mageGuild" : 5,
 			
-			"musicTheme" : "music/earth/theme",
+			"musicTheme" : [ "music/earth/theme" ],
 			"names" :
 			[
 				"Xanadu",
@@ -648,7 +653,6 @@
 				"Hallin",
 				"Rael"
 			],
-			"primaryResource" : "gems",
 			"siege" :
 			{
 				"shooter" : "eleprechaun",
@@ -1040,7 +1044,6 @@
 			},
 		"tavernVideo" : "TAVERN.BIK",
 			"townBackground": "earth/town-screen/background",
-		"warMachine" : "ballista",
 		"hallSlots" : [
 				[
 					[ "villageHall", "townHall", "cityHall", "capitol" ],
@@ -1069,7 +1072,7 @@
 					[ "dwelling6", "dwellingUpgrade6" ],
 					[ "dwelling7", "dwellingUpgrade7" ]
 				]
-			],
+			]
 		}
 	}
 }
