@@ -308,7 +308,10 @@
 					"description" : "The Nest earns your kingdom 250 gold per day.",
 					"produce" : { "gold" : 250 },
 					"name" : "Nest",
-
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5
+					},
 					"id" : 24
 				},
 				"boat" :
